@@ -1,9 +1,11 @@
 {
-  "name": "MultiWebRTC",
+  "name": "video-chat",
   "description": "Example of multi user webrtc",
-  "version": "0.0.2-1",
+  "version": "1.0.0",
+  "main": "server.js",
   "engines": {
-    "node": ">= 0.6.0"
+    "node": "12.16.1",
+    "npm": "6.13.4"
   },
   "dependencies": {
     "webrtc.io": "latest",
@@ -13,21 +15,7 @@
   },
   "subdomain": "MultiWebRTC",
   "scripts": {
-    "start": "example/server.js"
+    "start": "node server.js"
   },
-  "author": "Ben Brittain",
-  "contributors": [
-    {
-      "name": "Ben Brittain",
-      "email": "ben@brittain.org"
-    },
-    {
-      "name": "Dennis Mårtensson",
-      "email": "me@dennis.is"
-    },
-    {
-      "name": "David Peter",
-      "email": "david.a.peter@gmail.com"
-    }
-  ]
+  "author": "Kanomdook"
 }
